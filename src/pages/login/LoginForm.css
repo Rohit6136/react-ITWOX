@@ -1,0 +1,38 @@
+.form-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form-container {
+  max-width: 400px;
+  width: 100%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.sign-in-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.field-box {
+  margin-bottom: 15px;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 600px) {
+  .form-container {
+    max-width: 100%;
+  }
+
+  .field-box {
+    margin-bottom: 10px;
+  }
+}
+

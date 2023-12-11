@@ -1,0 +1,32 @@
+stages:
+  - build
+  - test
+  - deploy
+
+before_script:
+  - npm install
+
+build:
+  stage: build
+  script:
+    - npm run build
+
+test:
+  stage: test
+  script:
+    - npm test
+
+deploy:
+  stage: deploy
+  only:
+    - master # Adjust the branch as needed
+  script:
+    - echo "Deploying to temporary environment"
+
+after_script:
+  - npm cache verify
+  - rm -rf node_modules
+
+cache:
+  paths:
+    - node_modules/

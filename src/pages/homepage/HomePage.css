@@ -1,0 +1,9 @@
+.dashboardText{
+    height: 250px;
+    background-color: bisque;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+  

@@ -1,0 +1,9 @@
+.app-button-component {
+  cursor: pointer;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-weight: 600;
+  height: 40px;
+  margin:4px
+}

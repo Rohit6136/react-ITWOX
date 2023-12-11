@@ -1,0 +1,1 @@
+export const getUserData = (state:any) => state.auth.userData;

@@ -1,0 +1,60 @@
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  transition: height 0.3s ease;
+}
+
+.card-header {
+  padding: 10px;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.horizontalLine {
+  border: 0;
+  height: 1px;
+  background-color: #ccc;
+  margin: 10px 0;
+}
+
+.expandable-section {
+  overflow: hidden;
+  transition: height 0.3s ease;
+}
+
+
+
+.dropdown-container {
+  margin-top: 10px;
+}
+
+.child-html {
+  margin-bottom: 10px;
+}
+
+.commenter-profile-info {
+  margin-bottom: 5px;
+}
+
+.commenterName {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.commenterEmail {
+  color: #666;
+}
+
